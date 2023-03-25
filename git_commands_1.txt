@@ -1,0 +1,10 @@
+git status
+git init --global user.name "Vikil Learn"
+git config --global user.name "Vikil Learn"
+git config -- global user.name vikil.learn@gmail.com
+git config user.name "Vikil Learn"
+git config user.name vikil.learn@gmail.com
+git add
+git commit -m ""
+git log
+Git diff <filename>
