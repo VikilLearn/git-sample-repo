@@ -1,10 +1,13 @@
 git status							---->  prints status of the repository
 git init 							---->  initializes git repo
-git config --global user.name "Vikil Learn"
-git config --global user.name vikil.learn@gmail.com
-git config user.name "Vikil Learn"
-git config user.name vikil.learn@gmail.com
-git add
-git commit -m ""
-git log
-Git diff <filename>
+git config --global user.name "Vikil Learn"			---->  specify username globally
+git config --global user.name vikil.learn@gmail.com		---->  specify email globally
+git config user.name "Vikil Learn"				---->  specify username for particular repo
+git config user.name vikil.learn@gmail.com			---->  specify email for particular repo
+git add								---->  add file to staging env
+git commit -m ""						---->  commit file to local git repo
+git log								---->  check file log history
+Git diff <filename>						---->  check changes made to file with existing file
+git remote add origin <github repo url>				---->  establish connection to remote github repo
+git pust origin master						---->  push to master origin
+
