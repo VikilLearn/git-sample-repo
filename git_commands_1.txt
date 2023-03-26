@@ -4,10 +4,36 @@ git config --global user.name "Vikil Learn"			---->  specify username globally
 git config --global user.name vikil.learn@gmail.com		---->  specify email globally
 git config user.name "Vikil Learn"				---->  specify username for particular repo
 git config user.name vikil.learn@gmail.com			---->  specify email for particular repo
-git add								---->  add file to staging env
+git add	<<filename/*(all files)>>				---->  add file to staging env
 git commit -m ""						---->  commit file to local git repo
 git log								---->  check file log history
 Git diff <filename>						---->  check changes made to file with existing file
 git remote add origin <github repo url>				---->  establish connection to remote github repo
-git pust origin master						---->  push to master origin
+git push origin main						---->  push to master origin
+
+----------------------------------------------------------------------------------------------------------------------------   
+
+Scenario 1:
+First Release -> Done
+Second Release
+	2 Features
+	2 People
+Third Release
+	1 Feature
+	1 Person
+
+Scenario 2:
+Two people
+
+Person A -> Enhance the framework
+Person B -> Automating test cases
+
+testMethod1 -> getName()
+
+Person A -> Merge code to master
+Person B -> Pull from master to private branch, merge code to master
+
+Scenario 3:
+1 Person -> Two different features
+
 
